@@ -1,8 +1,15 @@
 .intro {
-    max-width: 690px;
-    margin-left: 146px;
+    max-width: 984px;
+    margin: 0 auto;
     padding: 92px 0 0 0;
     outline: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 768px) {

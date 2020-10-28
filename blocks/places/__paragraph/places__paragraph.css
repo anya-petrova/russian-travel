@@ -11,25 +11,21 @@
     max-width: 484px;
 }
 
-@media screen and (max-width: 1024px) {
-    .places__title {
-        max-width: 456px;
-    }
+.places__paragraph:last-of-type {
+    padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .places__title {
-        font-size: 18px;
+    .places__paragraph {
+        font-size: 16px;
         line-height: 26px;
-        max-width: 352px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .places__title {
+    .places__paragraph {
         font-size: 16px;
         line-height: 26px;
-        grid-row: 1/2;
-        max-width: 288px;
+        grid-row: 3/4;
     }
 }
