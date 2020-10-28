@@ -1,0 +1,35 @@
+.places__paragraph {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 26px 0;
+    outline: 1px red solid;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__title {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
+        font-size: 16px;
+        line-height: 26px;
+        grid-row: 1/2;
+        max-width: 288px;
+    }
+}
