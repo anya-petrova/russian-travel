@@ -7,3 +7,9 @@
     align-self: end;
     outline: 1px red solid;
 }
+
+@media screen and (max-width: 320px) {
+    .places__website {
+        display: none;
+    }
+}

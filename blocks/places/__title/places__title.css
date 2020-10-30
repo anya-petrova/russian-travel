@@ -22,5 +22,7 @@
         font-size: 32px;
         line-height: 35px;
         grid-row: 1/2;
+        min-width: 288px;
+        margin: 0 auto;
     }
 }
