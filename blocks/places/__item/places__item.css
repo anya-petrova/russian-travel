@@ -1,12 +1,13 @@
 .places__item {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(minmax(200px, 460px), 1fr);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     margin: 0 auto;
     padding: 0 0 80px 0;
     gap: 48px 40px;
-    outline: 1px red solid;
+    grid-template-areas: "title website"
+                         "image paragraph";
 }
 
 .places__item:last-of-type {
@@ -16,26 +17,25 @@
 @media screen and (max-width: 1024px) {
     .places__item {
         gap: 48px 32px;
-        grid-template-columns: 440px 456px;
-        grid-template-rows: repeat(2, minmax(min-content, max-content));
     }
 }
 
 @media screen and (max-width: 768px) {
     .places__item {
         gap: 48px 28px;
-        grid-template-columns: 340px 352px;
-        grid-template-rows: repeat(2, minmax(min-content, max-content));
         margin: 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .places__item {
         gap: 32px;
         grid-auto-flow: column;
-        grid-template-columns: minmax(min-content, max-content);
+        grid-template-columns: max-content;
         grid-template-rows: repeat(4, minmax(min-content, max-content));
         padding: 0 0 49px 0;
+        grid: "title"
+              "image"
+              "paragraph";
     }
 }

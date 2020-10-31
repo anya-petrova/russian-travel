@@ -1,6 +1,5 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
+    width: 100%;
     object-fit: fill;
     object-position: top;
     padding: 64px 0 8px 0;
@@ -9,24 +8,18 @@
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
-        max-height: 580px;
         padding: 56px 0 8px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        max-width: 768px;
-        max-height: 480px;
         padding: 56px 0 8px 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .lead__image {
-        max-width: 320px;
-        max-height: 200px;
         padding: 40px 0 8px 0;
     }
 }

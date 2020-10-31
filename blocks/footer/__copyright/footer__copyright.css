@@ -4,10 +4,9 @@
     font-weight: normal;
     line-height: 16px;
     font-size: 14px;
-    outline: 1px red solid;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__copyright {
         font-size: 14px;
         line-height: 14px;

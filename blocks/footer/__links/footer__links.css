@@ -7,15 +7,17 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    outline: 1px red solid;
 
     display: grid;
-
+    grid-auto-flow: column;
+    column-gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__links {
         font-size: 24px;
         line-height: 24px;
+        grid-auto-flow: row;
+        row-gap: 32px;
     }
 }

@@ -4,7 +4,6 @@
     margin: 28px auto 56px;
     display: flex;
     justify-content: space-between;
-    outline: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,9 +20,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .header {
-        max-width: 288px;
+        max-width: 90%;
         max-height: 42px;
         margin: 16px auto 48px;
     }

@@ -1,17 +1,11 @@
 .footer__link {
     color: #FFFFFF;
     text-decoration: none;
-    outline: 1px red solid;
 }
 
 .footer__link:last-of-type {
     margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
-    .footer__link {
-        margin: 0 0 32px 0;
-    }
-}
 
 
