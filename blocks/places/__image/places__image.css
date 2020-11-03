@@ -17,3 +17,9 @@
         max-width: 340px;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .places__image {
+        max-width: 100%;
+    }
+}
