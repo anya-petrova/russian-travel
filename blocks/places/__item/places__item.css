@@ -29,12 +29,12 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 650px) {
     .places__item {
         gap: 32px;
         grid-auto-flow: column;
         grid-template-columns: max-content;
-        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
         padding: 0 0 49px 0;
         grid: "title"
               "image"

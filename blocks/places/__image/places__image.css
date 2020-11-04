@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 650px) {
     .places__image {
         max-width: 100%;
     }
