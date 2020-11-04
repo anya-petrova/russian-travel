@@ -1,6 +1,4 @@
 .places__website {
-    grid-column: 2/3;
-    grid-row: 1/2;
     margin: 0;
     align-self: end;
     grid-area: website;

@@ -5,6 +5,8 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +23,6 @@
 
 @media screen and (max-width: 425.33px) {
     .footer {
-        min-width: 100%;
         min-height: 310px;
         margin-left: 16px;
         margin-bottom: 24px;
